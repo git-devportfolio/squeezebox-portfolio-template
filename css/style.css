@@ -819,8 +819,9 @@ Project content panel
 }
 
 .cd-project-content h3 {
-    font-size: 2rem;
+    font-size: 2.4rem;
     font-weight: bold;
+    line-height: 1.8;
 }
 
 .cd-project-content em {
@@ -834,6 +835,21 @@ Project content panel
     margin-bottom: 1em;
     font-size: 1.4rem;
     color: #6f757c;
+}
+
+.cd-project-content ul {
+    padding-left: 3rem;
+}
+
+.cd-project-content li {
+    margin-bottom: 1em;
+    font-size: 1.4rem;
+    color: #6f757c;
+    list-style: square;
+}
+
+.cd-project-content li {
+    line-height: 1;
 }
 
 .cd-project-content em,
@@ -855,10 +871,18 @@ Project content panel
     .cd-project-content h2 {
         font-size: 6rem;
     }
+    .cd-project-content h3 {
+        font-size: 3rem;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
     .cd-project-content em {
         font-size: 2.4rem;
     }
     .cd-project-content p {
+        font-size: 1.8rem;
+    }
+    .cd-project-content li {
         font-size: 1.8rem;
     }
     .cd-project-content .close {
@@ -866,6 +890,7 @@ Project content panel
         right: 5%;
     }
 }
+
 
 /* -------------------------------- 
 
