@@ -818,6 +818,11 @@ Project content panel
     font-weight: bold;
 }
 
+.cd-project-content h3 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
 .cd-project-content em {
     display: block;
     font-size: 1.8rem;
@@ -861,7 +866,6 @@ Project content panel
         right: 5%;
     }
 }
-
 
 /* -------------------------------- 
 
