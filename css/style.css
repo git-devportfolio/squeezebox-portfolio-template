@@ -845,6 +845,7 @@ Project content panel
     margin-bottom: 1em;
     font-size: 1.4rem;
     color: #6f757c;
+    text-align: justify;
 }
 
 .cd-project-content ul {
