@@ -111,6 +111,29 @@ Intro page
     transition: opacity 0.2s;
 }
 
+.cd-intro-block .content-header {
+    /* vertical align the .cd-intro-block header */
+    display: table-header-group;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.content-header-wrapper {
+	margin-top: 1rem;
+}
+
+.content-header-wrapper a {
+	color: #5b6879;
+}
+
+.content-header-wrapper a:hover {
+	color: #eebb00;
+}
+
+.cd-intro-block .content-header em {
+    /*margin: 0;*/
+}
+
 .cd-intro-block .content-wrapper {
     /* vertical align the .cd-intro-block content */
     display: table-cell;
@@ -130,7 +153,7 @@ Intro page
 .cd-intro-block em {
 	display: block;
     width: 90%;
-    margin: 0 auto 1em;
+    margin: 0 auto 2em;
     /*font-size: 2.4rem;*/
     color: #5b6879;
     -webkit-font-smoothing: antialiased;
